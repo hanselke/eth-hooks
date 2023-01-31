@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true
+  },
+  "files": ["hardhat.config.ts"],
+  "ts-node": {
+    "swc": true,
+
+    "compilerOptions": {
+      "module": "CommonJS"
+    },
+    "moduleTypes": {
+      "**/*": "cjs"
+    }
+  }
+}
