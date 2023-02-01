@@ -1,0 +1,1 @@
+{"version":3,"file":"useEthersAdaptorFromProviderOrSigners.d.ts","sourceRoot":"","sources":["../../src/hooks/useEthersAdaptorFromProviderOrSigners.ts"],"names":[],"mappings":"AAYA,OAAO,EAAE,uBAAuB,EAAE,WAAW,EAAE,cAAc,EAAE,kBAAkB;AAEjF,OAAO,EAAE,cAAc,EAAE,wCAAwC;AAOjE;;;;;;;;GAQG;AACH,eAAO,MAAM,qCAAqC,qBAC9B,uBAAuB,GAAG,SAAS,YAC5C,cAAc,4CAqCxB,CAAC"}

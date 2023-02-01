@@ -1,0 +1,1 @@
+{"version":3,"sources":["../esbuild.shim.js"],"names":[],"mappings":";;;;;;;;AACA,YAAY,WAAW;AAEvB,SAAgB,WAAY","sourcesContent":["// shim.js\r\nimport * as React from 'react';\r\nexport { React };\r\nexport { jsx as _jsx } from 'react/jsx-runtime';\r\n"]}

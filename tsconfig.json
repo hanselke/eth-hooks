@@ -6,7 +6,7 @@
     "lib": ["dom", "ESNext", "ES2017"],
     "sourceMap": true,
     "inlineSources": true,
-    "jsx": "react-jsxdev",
+    "jsx": "react-jsx",
     "allowJs": false,
     "declaration": true,
     "declarationDir": "lib",

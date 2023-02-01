@@ -1,0 +1,1 @@
+{"version":3,"file":"useDexEthPrice.d.ts","sourceRoot":"","sources":["../../../src/hooks/dapps/useDexEthPrice.ts"],"names":[],"mappings":"AAMA,OAAO,EAAE,WAAW,EAAE,YAAY,EAAE,cAAc,EAAE,qBAAkB;AAEtE,OAAO,EAAE,eAAe,EAAE,mCAAgC;AAI1D;;;;;;;;;;;;;GAaG;AACH,eAAO,MAAM,cAAc,oBACR,eAAe,GAAG,SAAS,sBACxB,YAAY,YACvB,cAAc,wBA8BxB,CAAC"}

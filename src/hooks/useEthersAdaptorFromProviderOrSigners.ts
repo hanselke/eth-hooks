@@ -33,6 +33,7 @@ export const useEthersAdaptorFromProviderOrSigners = (
   options: TUpdateOptions = mergeDefaultUpdateOptions()
 ): THookResult<TEthersAdaptor | undefined> => {
   const keys = [{ ...queryKey, ...providerKey(providerOrSigner) }] as const;
+  console.log("useEthersAdaptorFromProviderOrSigners keys, providerOrSigner", keys, providerOrSigner)
   const { data, refetch, status } = useQuery(
     keys,
     async (_keys): Promise<TEthersAdaptor | undefined> => {
@@ -46,7 +47,7 @@ export const useEthersAdaptorFromProviderOrSigners = (
   );
 
   const validAdaptorState = isValidEthersAdaptor(data);
-
+  console.log("validAdaptorState",validAdaptorState)
   // if the adaptor is not valid, refetch when the network is obtained
   useEffect(() => {
     if (data != null && !validAdaptorState) {
